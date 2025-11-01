@@ -1,0 +1,78 @@
+{
+  "cockpit_grafana_url": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://cockpit.fr-par.scw.cloud"
+  },
+  "container_namespace_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://fr-par/3af1f2d4-4253-464e-beef-eaf688b7342f.containers.fnc.fr-par.scw.cloud"
+  },
+  "container_namespace_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "fr-par/3af1f2d4-4253-464e-beef-eaf688b7342f"
+  },
+  "container_registry_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "rg.fr-par.scw.cloud/prod-agentops"
+  },
+  "nats_account_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "fr-par/AA7BGIWJ5JQAB6PJC6SXGMZZB6ZZ47RYQIISFIIPZB3EYXGZ5ODWRBGA"
+  },
+  "nats_endpoint": {
+    "sensitive": true,
+    "type": "string",
+    "value": "nats://nats.mnq.fr-par.scaleway.com:4222"
+  },
+  "private_network_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "fr-par/b828a9bf-c7cc-41d5-b569-b2201f4ba2de"
+  },
+  "s3_bucket_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://prod-agentops-artifacts.s3.fr-par.scw.cloud"
+  },
+  "s3_bucket_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "prod-agentops-artifacts"
+  },
+  "secret_manager_ids": {
+    "sensitive": true,
+    "type": [
+      "object",
+      {
+        "db_password": "string",
+        "nats_credentials": "string",
+        "openrouter_api_key": "string"
+      }
+    ],
+    "value": {
+      "db_password": "fr-par/818133d3-e544-48a1-b219-f41032b017c6",
+      "nats_credentials": "fr-par/ccdffa9b-392a-4ca7-9d96-476a49948e5d",
+      "openrouter_api_key": "fr-par/76611b83-d288-476d-b65b-05ea7cdcc398"
+    }
+  },
+  "serverless_sql_database": {
+    "sensitive": false,
+    "type": "string",
+    "value": "prod-agentops-db"
+  },
+  "serverless_sql_endpoint": {
+    "sensitive": true,
+    "type": "string",
+    "value": "postgres://6838bdb4-a8db-453f-84e5-0b9025abd987.pg.sdb.fr-par.scw.cloud:5432/prod-agentops-db?sslmode=require"
+  },
+  "vpc_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "fr-par/9226f62c-1ac4-4da5-ba07-0a964e1a523e"
+  }
+}
