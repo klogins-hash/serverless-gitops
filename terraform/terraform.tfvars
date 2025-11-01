@@ -1,8 +1,8 @@
 # Scaleway Configuration
-project_id  = "077c9bc7-a333-4912-ae07-cd6d997485a0"
+project_id  = "1e3be992-de06-4cc2-8293-bc510a4d11c6"  # autonomous-agents-fresh
 region      = "fr-par"
 zone        = "fr-par-1"
-environment = "prod"
+environment = "fresh"
 
 # Database Configuration
 db_password = "AgentOps2025!SecureDB"

@@ -7,22 +7,22 @@
   "container_namespace_endpoint": {
     "sensitive": false,
     "type": "string",
-    "value": "https://fr-par/3af1f2d4-4253-464e-beef-eaf688b7342f.containers.fnc.fr-par.scw.cloud"
+    "value": "https://fr-par/7e07aab2-d5e5-46f4-9b99-e2442e961691.containers.fnc.fr-par.scw.cloud"
   },
   "container_namespace_id": {
     "sensitive": false,
     "type": "string",
-    "value": "fr-par/3af1f2d4-4253-464e-beef-eaf688b7342f"
+    "value": "fr-par/7e07aab2-d5e5-46f4-9b99-e2442e961691"
   },
   "container_registry_endpoint": {
     "sensitive": false,
     "type": "string",
-    "value": "rg.fr-par.scw.cloud/prod-agentops"
+    "value": "rg.fr-par.scw.cloud/fresh-agentops"
   },
   "nats_account_id": {
     "sensitive": false,
     "type": "string",
-    "value": "fr-par/AA7BGIWJ5JQAB6PJC6SXGMZZB6ZZ47RYQIISFIIPZB3EYXGZ5ODWRBGA"
+    "value": "fr-par/ACXFBVS2WNKETC75DQXPC4IKXHL4P3HINC52A3QEXFWTSVQFXM6HTIKT"
   },
   "nats_endpoint": {
     "sensitive": true,
@@ -32,17 +32,27 @@
   "private_network_id": {
     "sensitive": false,
     "type": "string",
-    "value": "fr-par/b828a9bf-c7cc-41d5-b569-b2201f4ba2de"
+    "value": "fr-par/bee098c3-9e89-45bf-b74a-974ebe0204ce"
+  },
+  "redis_cluster_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "fr-par-1/4df135b7-f3aa-4e4c-a4c0-3c7367077513"
+  },
+  "redis_endpoint": {
+    "sensitive": true,
+    "type": "string",
+    "value": "172.16.16.2:6379"
   },
   "s3_bucket_endpoint": {
     "sensitive": false,
     "type": "string",
-    "value": "https://prod-agentops-artifacts.s3.fr-par.scw.cloud"
+    "value": "https://fresh-agentops-artifacts.s3.fr-par.scw.cloud"
   },
   "s3_bucket_name": {
     "sensitive": false,
     "type": "string",
-    "value": "prod-agentops-artifacts"
+    "value": "fresh-agentops-artifacts"
   },
   "secret_manager_ids": {
     "sensitive": true,
@@ -55,24 +65,24 @@
       }
     ],
     "value": {
-      "db_password": "fr-par/818133d3-e544-48a1-b219-f41032b017c6",
-      "nats_credentials": "fr-par/ccdffa9b-392a-4ca7-9d96-476a49948e5d",
-      "openrouter_api_key": "fr-par/76611b83-d288-476d-b65b-05ea7cdcc398"
+      "db_password": "fr-par/09deb5bf-ddc4-497c-b0b7-1fabb85940f4",
+      "nats_credentials": "fr-par/e05fe2e4-ff35-4782-90c1-a9fb90f76170",
+      "openrouter_api_key": "fr-par/dc273d51-8f1c-434f-acf5-12bf269dcc81"
     }
   },
   "serverless_sql_database": {
     "sensitive": false,
     "type": "string",
-    "value": "prod-agentops-db"
+    "value": "fresh-agentops-db"
   },
   "serverless_sql_endpoint": {
     "sensitive": true,
     "type": "string",
-    "value": "postgres://6838bdb4-a8db-453f-84e5-0b9025abd987.pg.sdb.fr-par.scw.cloud:5432/prod-agentops-db?sslmode=require"
+    "value": "postgres://3ef3eaf8-893e-46f8-8ae3-0027b931e47f.pg.sdb.fr-par.scw.cloud:5432/fresh-agentops-db?sslmode=require"
   },
   "vpc_id": {
     "sensitive": false,
     "type": "string",
-    "value": "fr-par/9226f62c-1ac4-4da5-ba07-0a964e1a523e"
+    "value": "fr-par/08c00645-825d-493f-8940-9cf313c6311f"
   }
 }

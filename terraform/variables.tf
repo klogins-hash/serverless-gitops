@@ -19,7 +19,7 @@ variable "zone" {
 variable "environment" {
   description = "Environment name (dev, staging, prod)"
   type        = string
-  default     = "prod"
+  default     = "fresh"
 }
 
 variable "db_password" {
